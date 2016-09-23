@@ -12,5 +12,5 @@ try {
 } catch (Exception $e) {
     echo "\r\nOh Snap: {$e->getMessage()}\r\n";
     // Return 1 to indicate error to caller
-    exit(1);
+    //exit(1);
 }
